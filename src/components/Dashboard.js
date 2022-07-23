@@ -11,8 +11,6 @@ export const Dashboard = () => {
     const dispatch = useDispatch()
     const tasks = useSelector(state => state.task)
 
-    console.log(tasks);
-
     const [addingDisplay, setAddingDisplay] = useState(false);
     const [editingDisplay, setEditingDisplay] = useState(false)
 
